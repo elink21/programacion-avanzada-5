@@ -1,0 +1,47 @@
+*{
+	transition: .5s ease-in-out all;
+}
+
+.centro{
+	text-align: center;
+}
+.menu-img{
+	margin: 80px;
+}
+
+.menu-img:hover{
+	transform: scale(1.2, 1.2);
+}
+.nav-msg{
+	border: 1px solid black;
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	border-radius: 5%;
+}
+table{
+	width: 100%;
+}
+
+.links{
+	border: 1px solid black;
+	padding: 30px;
+	background-color: black;
+}
+
+.links a{
+	font-size: 20px;
+	background-color: white;
+	padding: 5px;
+	text-decoration: none;
+	margin: 07%;
+	border-radius: 20%;
+	color: black;
+}
+.links a:hover{
+	background-color: rgba(12,12,12,.1);
+	color: white;
+}

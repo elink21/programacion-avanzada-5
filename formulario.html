@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario de retroalimentacion</title>
+</head>
+<body>
+	<h1>Formulario de retroalimentacion</h1>
+	<p>Ayudenos llenando este formulario</p>
+	<form action="" method="POST">
+		<label for="nombre">Nombre:<input type="text" name="nombre"></label><br><br>
+		<label for="comentarios">
+			Comentarios: <br><textarea name="comentarios" id="" cols="30" rows="10"></textarea>
+		</label><br><br>
+		<label for="email">E-mail: <input type="password"></label><br><br>
+		
+		<strong>Cosas que le gustaron</strong><br><br>
+		<label for="like">Contenido<input type="checkbox" value="content"></label>
+		<label for="like">Descripciones<input type="checkbox" value="explaination"></label>
+		<label for="like">Material de apoyo<input type="checkbox" value="material"></label>
+		<label for="like">Tematica del sitio<input type="checkbox" value="keythemes"></label>
+		<br><br>
+		
+		<strong>Como conocio el sitio</strong><br><br>
+		<label for="busqueda">Busqueda en internet<input type="radio"  value="search" checked></label>
+		<label for="amigos">Amigos<input type="radio"  value="friends"></label>
+		<label for="correo">Correo<input type="radio"  value="mail"></label>
+		<label for="pagina">Direccion de la pagina<input type="radio"  value="webpage"></label>
+
+		<br><strong>Califique nuestro sitio</strong><br>
+		<select name="note" id="">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+		</select>
+	<br><br>
+	<button type="submit">Enviar</button><br>
+	<button type="reset">Borrar</button>	
+	</form>
+
+
+
+
+</body>
+</html>
